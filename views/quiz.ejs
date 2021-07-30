@@ -1,0 +1,40 @@
+<div class="container-fluid bg-warning">
+    <div class="container py-3">
+        <h1 class="display-1 py-2"> <%- title %>  </h1>
+        <p class="col-sm-6 fs-3">Total <%= data.length %> Questions</p>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <form class="container" action="/quiz" method="POST">
+        <ol>
+
+            <% for(let i = 0; i < data.length; i++) { %>
+            <li class="fs-5">
+                <h2> <%= data[i]['que'] %> </h2>
+                <div class="bg-light p-2">
+                    <label>
+                        <input type="radio" name="q<%= i %>" value="opt_a" required>
+                        <%= data[i]['opt_a'] %>
+                    </label><br/>
+                    <label>
+                        <input type="radio" name="q<%= i %>" value="opt_b" required>
+                        <%= data[i]['opt_b'] %>
+                    </label><br/>
+                    <label>
+                        <input type="radio" name="q<%= i %>" value="opt_c" required>
+                        <%= data[i]['opt_c'] %>
+                    </label><br/>
+                    <label>
+                        <input type="radio" name="q<%= i %>" value="opt_d" required>
+                        <%= data[i]['opt_d'] %>
+                    </label>
+                </div>
+            </li>
+            <% } %>
+        </ol>
+        <div class="pt-3">
+            <button type="submit" class="btn btn-lg btn-warning">Submit</button>
+        </div>
+    </form>
+</div>

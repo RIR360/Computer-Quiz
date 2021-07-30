@@ -1,0 +1,19 @@
+<div class="container-fluid bg-warning">
+    <div class="container py-3">
+        <h1 class="display-1 py-2">All Quiz</h1>
+        <p class="col-sm-6">Here is list of all question set available in this website. You can press on the name to start a test.</p>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container py-5">
+        <h2>Question Sets</h2>
+        <ul>
+            <% for(let i = 0; i < data.length; i++) { %>
+            <li>
+                <a href="/quiz?id=<%=data[i]['id']%>"><%= data[i]['name'] %></a>
+            </li>
+            <% } %>
+        </ul>
+    </div>
+</div>

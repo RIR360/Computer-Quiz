@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title> <%- title %>  </title>
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand border-bottom">
+        <div class="container-fluid">
+            <div class="navbar-collapse container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link text-dark">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/all-quiz" class="nav-link text-dark">All Quiz</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/about" class="nav-link">About<img src="img/info.png" alt="" width="15px"/></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="main">
+        <%- body %>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid py-2">
+            <div class="container">
+                <p class="text-muted">&copy; Copyrights Reserved - 2021</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
