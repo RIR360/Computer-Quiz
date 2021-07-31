@@ -69,6 +69,29 @@ const data = [
             opt_d: 'The desk that your computer is stationed on',
             ans: 'opt_c'
         }
+    ],
+    [
+        {
+            /* Extra */
+            id: 1,
+            set: 'Computer Languages',
+            dif: 'low',
+            /* Extra */
+            que: 'Name an example of a high-level language',
+            opt_a: 'Hindi language',
+            opt_b: 'None',
+            opt_c: 'Java',
+            opt_d: 'Both A and C',
+            ans: 'opt_c'
+        },
+        {
+            que: 'What is Binary Language?',
+            opt_a: "A language made of 1's and 0's",
+            opt_b: 'High level and low level language',
+            opt_c: "A language made of 2's and 3's",
+            opt_d: 'Both of them',
+            ans: 'opt_a'
+        }
     ]
 ]
 
