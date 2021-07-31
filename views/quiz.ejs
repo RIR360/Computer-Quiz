@@ -6,7 +6,7 @@
 </div>
 
 <div class="container-fluid py-5">
-    <form class="container" action="/quiz" method="POST">
+    <form class="container" action="/quiz?id=<%= data[0]['id'] %>" method="POST">
         <ol>
 
             <% for(let i = 0; i < data.length; i++) { %>

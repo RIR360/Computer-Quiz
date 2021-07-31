@@ -60,9 +60,11 @@ app.get("/quiz", (req, res) => {
 });
 app.post("/quiz", (req, res) => {
 
-    for (prop in req.body) {
-        console.log(req.body[prop]);
-    }
+    const report = require("./report.js");
+    const data_portion = database[req.query.id];
+    const user_answer = req.body;
+
+    report(user_answer, data_portion);
 
     // redirect to the homepage
     res.redirect("/");
