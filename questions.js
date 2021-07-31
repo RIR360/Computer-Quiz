@@ -93,11 +93,11 @@ const data = [
             ans: 'opt_a'
         },
         {
-            que: 'What is Binary Language?',
-            opt_a: "A language made of 1's and 0's",
-            opt_b: 'High level and low level language',
-            opt_c: "A language made of 2's and 3's",
-            opt_d: 'Both of them',
+            que: 'What is the definition of a variable?',
+            opt_a: 'Variables store data for the program to work with. A variable could contain text or numerical values.',
+            opt_b: 'Variables allow decisions to be made in a program',
+            opt_c: 'Variables receive data and messages enabling two or more computers to communicate',
+            opt_d: 'All of these'          
             ans: 'opt_a'
         },
     ]
