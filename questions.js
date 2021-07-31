@@ -139,10 +139,9 @@ const data = [
         {
             que: 'What are some examples of high-level languages?',
             opt_a: 'BASIC',
-            opt_b: 'FORTRAN',
-            opt_c: 'COBOL',
-            opt_d: 'C++',
-            opt_e: 'All of these',  
+            opt_b: 'COBOL',
+            opt_c: 'C++',
+            opt_d: 'All of these',  
             ans: 'opt_e'
         }, 
         {
