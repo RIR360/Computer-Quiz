@@ -91,7 +91,15 @@ const data = [
             opt_c: "A language made of 2's and 3's",
             opt_d: 'Both of them',
             ans: 'opt_a'
-        }
+        },
+        {
+            que: 'What is Binary Language?',
+            opt_a: "A language made of 1's and 0's",
+            opt_b: 'High level and low level language',
+            opt_c: "A language made of 2's and 3's",
+            opt_d: 'Both of them',
+            ans: 'opt_a'
+        },
     ]
 ]
 
