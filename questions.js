@@ -97,9 +97,60 @@ const data = [
             opt_a: 'Variables store data for the program to work with. A variable could contain text or numerical values.',
             opt_b: 'Variables allow decisions to be made in a program',
             opt_c: 'Variables receive data and messages enabling two or more computers to communicate',
-            opt_d: 'All of these'          
+            opt_d: 'All of these',         
             ans: 'opt_a'
         },
+        {
+            que: "What's the difference between high level and low-level languages?",
+            opt_a: 'High level is written in capitals and low level is written in lower case.',
+            opt_b: 'High level is hard and low level is easy',
+            opt_c: 'High level language is used by software and low level languages is used by hardware.',
+            opt_d: "Low level languages is made of 1's and 0's and high level language is BASIC, COBOL, FORTRAN, C++, etc.",          
+            ans: 'opt_d'
+        },
+        {
+            que: 'What is machine language?',
+            opt_a: 'A language used by cars.',
+            opt_b: "Machine language is made of 1's and 0's.",
+            opt_c: "Machine language is made of 7's and 8's.",
+            opt_d: 'None of the above.',          
+            ans: 'opt_b'
+        },
+        {
+            que: 'Low-level languages can be divided into four categories.',
+            opt_a: 'True',
+            opt_b: 'False',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Which two categories can low-level language be divided into?',
+            opt_a: 'Assembly language',
+            opt_b: 'Basic language',
+            opt_c: 'Machine languag',
+            opt_d: 'None of the above.',     
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Assembly language is machine dependent.',
+            opt_a: 'True',
+            opt_b: 'False',
+            ans: 'opt_a'
+        },
+        {
+            que: 'What are some examples of high-level languages?',
+            opt_a: 'BASIC',
+            opt_b: 'FORTRAN',
+            opt_c: 'COBOL',
+            opt_d: 'C++',
+            opt_e: 'All of these',  
+            ans: 'opt_e'
+        }, 
+        {
+            que: 'A computer language is not a programming language.',
+            opt_a: 'True',
+            opt_b: 'False', 
+            ans: 'opt_b'
+        }, 
     ]
 ]
 
