@@ -142,7 +142,7 @@ const data = [
             opt_b: 'COBOL',
             opt_c: 'C++',
             opt_d: 'All of these',  
-            ans: 'opt_e'
+            ans: 'opt_d'
         }, 
         {
             que: 'A computer language is not a programming language.',
