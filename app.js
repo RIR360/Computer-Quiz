@@ -5,7 +5,7 @@ const database = require("./questions.js");
 
 // app
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // app configurting
 app.set("view engine", "ejs");
@@ -64,10 +64,10 @@ app.post("/quiz", (req, res) => {
     const data_portion = database[req.query.id];
     const user_answer = req.body;
 
-    report(user_answer, data_portion);
+    const result = report(user_answer, data_portion);
 
     // redirect to the homepage
-    res.redirect("/");
+    res.render("report", {title: data_portion[0]["set"], data: result});
 });
 
 app.get("/about", (req, res) => {

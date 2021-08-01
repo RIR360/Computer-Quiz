@@ -1,17 +1,12 @@
-const report = (answer, database) => {
+const report = (answers, database) => {
     
-    /* console.log("User Inputs:");
-    for (index in answer) {
-        console.log(answer[index]);
+    const result = [];
+
+    for (index in answers) {
+        result.push(answers[index]);
     }
 
-    console.log("Actual Answers:");
-    for (que in database) {
-        console.log(que, database[que]["ans"])
-    } */
-
-    // check the answer and show a report
-    // todo
+    return result;
 };
 
 module.exports = report;

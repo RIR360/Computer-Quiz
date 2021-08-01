@@ -1,0 +1,18 @@
+<div class="container-fluid bg-warning">
+    <div class="container py-3">
+        <h1 class="display-1 py-2">Result</h1>
+        <hr/>
+        <p class="col-sm-6 fs-4">
+            Quiz: <%- title %>
+        </p>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container">
+        <h2>Your inputs: </h2>
+        <% for (i in data) { %>
+            <%= data[i] %> <br/>
+        <% } %> 
+    </div>
+</div>

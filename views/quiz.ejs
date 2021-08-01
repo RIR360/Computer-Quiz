@@ -1,7 +1,11 @@
 <div class="container-fluid bg-warning">
     <div class="container py-3">
         <h1 class="display-1 py-2"> <%- title %>  </h1>
-        <p class="col-sm-6 fs-3">Total <%= data.length %> Questions</p>
+        <hr/>
+        <p class="col-sm-6 fs-4">
+            Difficulty: <%= data[0]['dif'] %> <br/>
+            Total: <%= data.length %> Questions
+        </p>
     </div>
 </div>
 
@@ -21,14 +25,24 @@
                         <input type="radio" name="q<%= i %>" value="opt_b" required>
                         <%= data[i]['opt_b'] %>
                     </label><br/>
+                    <% if (data[i]['opt_c']) { %> 
                     <label>
                         <input type="radio" name="q<%= i %>" value="opt_c" required>
                         <%= data[i]['opt_c'] %>
                     </label><br/>
+                    <% } %>
+                    <% if (data[i]['opt_d']) { %> 
                     <label>
                         <input type="radio" name="q<%= i %>" value="opt_d" required>
                         <%= data[i]['opt_d'] %>
                     </label>
+                    <% } %>
+                    <% if (data[i]['opt_e']) { %> 
+                    <label>
+                        <input type="radio" name="q<%= i %>" value="opt_e" required>
+                        <%= data[i]['opt_e'] %>
+                    </label>
+                    <% } %>
                 </div>
             </li>
             <% } %>
