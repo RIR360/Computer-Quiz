@@ -149,7 +149,7 @@ const data = [
             opt_a: 'True',
             opt_b: 'False', 
             ans: 'opt_b'
-        }, 
+        }
     ]
 ]
 
