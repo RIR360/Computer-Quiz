@@ -152,7 +152,181 @@ const data = [
         }
     ],
     [
-      //question
+        {
+            /* Extra */
+            id: 2,
+            set: 'Types Of Computers',
+            dif: 'low',
+            /* Extra */
+            que: 'The acronym PC stands for:',
+            opt_a: 'Private Computer',
+            opt_b: 'Personal Computer',
+            opt_c: 'Personal Compact',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Another name for supercomputer is:',
+            opt_a: 'Mega Computer',
+            opt_b: 'Power Computer', 
+            opt_c: 'Monster Computer',
+            ans: 'opt_c'
+        },
+        {
+            que: 'This computer is a multiprocessing computer system that is smaller and slower than a mainframe:',
+            opt_a: 'Supercomputer',
+            opt_b: 'Personal Computer', 
+            opt_c: 'Minicomputer',
+            ans: 'opt_c'
+        },
+        {
+            que: 'This computer is mainly used in homes for recreation:',
+            opt_a: 'Personal Computer',
+            opt_b: 'Mainframe Computer ', 
+            opt_c: 'Minicomputer',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Complex scientific research is usually done using:',
+            opt_a: 'Mainframe Computer', 
+            opt_b: 'Supercomputer',
+            opt_c: 'Minicomputer',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'Mainframe computers are very cheap.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'Minicomputers have become outdated.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Supercomputers are used extensively in the scientific field for research and simulations.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Personal computers are also called microcomputers.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'A laptop is an example of a personal computer.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        }
+    ],
+    [
+        {
+            /* Extra */
+            id: 3,
+            set: 'Types Of Computers',
+            dif: 'low',
+            /* Extra */
+            que: 'When using a grounding mat, we are protecting ourselves from the computer.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Personal computers are also called microcomputers.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Power Supplies are considered an FRU or Field Replaceable Unit in the computer industry.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        }, 
+        {
+            que: "Which is considered a part of a computer's hardware?",
+            opt_a: 'Monitor', 
+            opt_b: 'Keyboard',
+            opt_c: 'RAM', 
+            opt_d: 'All of the above',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Each IDE connector can accommodate up to ______ devices.',
+            opt_a: '1', 
+            opt_b: '2',
+            opt_c: '4', 
+            opt_d: 'It depends on the type of IDE connector.',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Which type of expansion slot is used solely for a video card?',
+            opt_a: 'PCI', 
+            opt_b: 'AGP',
+            opt_c: 'ISA', 
+            opt_d: 'EISA',
+            ans: 'opt_b'
+        },  
+        {
+            que: 'A group of chips on the motherboard that controls the timing and flow of data and instructions to and from the CPU is called a _________.',
+            opt_a: 'Motherboard', 
+            opt_b: 'Chip set',
+            opt_c: 'CPU', 
+            opt_d: 'ROM',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'The _______________ is the main secondary storage device of a PC.',
+            opt_a: 'Hard drive', 
+            opt_b: 'Floppy drive',
+            opt_c: 'CD-Rom drive', 
+            opt_d: 'Monitor',
+            ans: 'opt_a'
+        },
+        {
+            que: 'The main circuit board of a computer is called a _____________',
+            opt_a: 'Hub', 
+            opt_b: 'RAM',
+            opt_c: 'Power Supply', 
+            opt_d: 'Motherboard',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'The ATX motherboard uses the __________ power connector.',
+            opt_a: 'P1', 
+            opt_b: 'P3',
+            opt_c: 'P8', 
+            opt_d: 'P9',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'The first step in preparing the motherboard to go in the case is to __________.',
+            opt_a: 'Add the CPU', 
+            opt_b: 'Set the jumpers',
+            opt_c: 'Add the fan', 
+            opt_d: 'Install RAM',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'A(n) ______________ is a binary number that uniquely identifies a host computer connected to the Internet.',
+            opt_a: 'Hub', 
+            opt_b: 'POST',
+            opt_c: 'Network Interface Card', 
+            opt_d: 'IP Address',
+            ans: 'opt_d'
+        },  
+        {
+            que: '______________ is a self-diagnostic program used to perform a simple test of the CPU, RAM, and various I/O devices.',
+            opt_a: 'POST', 
+            opt_b: 'Hub',
+            opt_c: 'RAM', 
+            opt_d: 'Ground Bracelet',
+            ans: 'opt_a'
+        }             
     ]
 ]
 
