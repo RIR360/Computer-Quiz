@@ -74,5 +74,10 @@ app.get("/about", (req, res) => {
     res.render("about", {title: "About it"});
 });
 
+// 404 Error Page
+app.get("*", (req, res) => {
+    res.render("notFound", {title: "404 Not Found"});
+});
+
 // listening
 app.listen(port);
