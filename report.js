@@ -9,8 +9,9 @@ const report = (answers, database) => {
       *     inputs: ['opt_a', 'opt_b', 'opt_c']
       * }
       */
-
-    let 
+     
+     const user_inputs = [];
+     let 
         i = 0,
         correct = 0, 
         wrong = 0,
@@ -20,6 +21,7 @@ const report = (answers, database) => {
     {
         let a = answers[index];
         let b = database[i]['ans'];
+        user_inputs.push(a);
     
         if (a == b) {
             correct++;
@@ -28,14 +30,14 @@ const report = (answers, database) => {
         }
         i++;
     }
-    score = Math.round((correct / (i + 1)) * 100);
+    score = Math.round((correct / i) * 100);
 
     const result = {
         score: score,
         correct: correct,
-        wrong: wrong
+        wrong: wrong,
+        inputs: user_inputs
     };
-
     return result;
 };
 

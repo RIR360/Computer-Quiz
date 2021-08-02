@@ -4,12 +4,19 @@
 }
 .correct {
     background: var(--bs-warning);
+    color: var(--bs-dark);
 }
 .correct::after {
     content: " - Correct Answer";
+}
+.neutral {
+    background: var(--bs-white);
     color: var(--bs-secondary);
 }
 .wrong {
     background: var(--bs-danger);
     color: var(--bs-light);
+}
+.wrong::after {
+    content: " - Wrong Answer";
 }

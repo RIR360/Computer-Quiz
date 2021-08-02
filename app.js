@@ -16,7 +16,13 @@ app.use(express.urlencoded({ extended: true }));
 
 // routing
 app.get("/", (req, res) => {
-    res.render("home", {title: "Computer quiz"});
+
+    let amount = 0;
+    for (const set of database) {
+        amount += set.length;
+    }
+
+    res.render("home", {title: "Computer quiz", amount: amount});
 });
 
 app.get("/all-quiz", (req, res) => {
@@ -60,14 +66,28 @@ app.get("/quiz", (req, res) => {
 });
 app.post("/quiz", (req, res) => {
 
+    let question = req.query.id;
     const report = require("./report.js");
-    const data_portion = database[req.query.id];
+    const data_portion = database[question];
     const user_answer = req.body;
 
     const result = report(user_answer, data_portion);
 
     // redirect to the homepage
-    res.render("report", {title: data_portion[0]["set"], report: result, data: data_portion});
+    res.render("report", {title: data_portion[0]["set"], id: question, report: result, data: data_portion});
+});
+
+app.get("/random", (req, res) => {
+    
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    let sets = database.length;
+    let id = getRandomInt(0, sets);
+    res.redirect("/quiz?id=" + id);
 });
 
 app.get("/about", (req, res) => {

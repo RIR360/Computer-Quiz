@@ -1,6 +1,12 @@
 <div class="container-fluid bg-warning">
     <div class="container py-3">
-        <h1 class="display-1 py-2">You Scored <%= report["score"] %>%</h1>
+        <% if (report["score"] < 100) { %>
+            <h1 class="display-1 py-2">You Scored <%= report["score"] %>%</h1>
+            <a href="/quiz?id=<%=id%>" class="btn btn-outline-dark">Retake</a>
+        <% } else { %>
+            <h1 class="display-1 py-2">Congratulations for <%= report["score"] %>%</h1>
+            <a href="/all-quiz" class="btn btn-outline-dark">Find Another</a>
+        <% } %>
         <hr/>
         <p class="col-sm-6 fs-5">
             <strong>Quiz:</strong> <%- title %> <br/>
@@ -12,6 +18,7 @@
 
 <div class="container-fluid py-5">
     <div class="container">
+        <p><%= report["inputs"]  %> </p>
         <h2 class="mb-4 text-muted">Full Report:</h2>
         <ol>
             <% for(let i = 0; i < data.length; i++) { %>
@@ -20,32 +27,52 @@
                 <div class="my-2">
 
                     <label class="d-block p-2 
-                        <%= (data[i]['ans'] == 'opt_a') ? "correct" : "" %> ">  
+                        <%= (data[i]['ans'] == 'opt_a') ? "correct" : "nuetral" %> 
+                        <%= (
+                            report["inputs"][i] == 'opt_a' &&
+                            data[i]['ans'] != 'opt_a'
+                            ) ? "wrong" : "nuetral" %> ">
                         <%= data[i]['opt_a'] %>
                     </label>
                     
                     <label class="d-block p-2 
-                        <%= (data[i]['ans'] == 'opt_b') ? "correct" : "" %>">
+                        <%= (data[i]['ans'] == 'opt_b') ? "correct" : "nuetral" %> 
+                        <%= (
+                            report["inputs"][i] == 'opt_b' &&
+                            data[i]['ans'] != 'opt_b'
+                            ) ? "wrong" : "nuetral" %> ">
                         <%= data[i]['opt_b'] %>
                     </label>
 
                     <% if (data[i]['opt_c']) { %> 
                     <label class="d-block p-2 
-                        <%= (data[i]['ans'] == 'opt_c') ? "correct" : "" %>">
+                        <%= (data[i]['ans'] == 'opt_c') ? "correct" : "nuetral" %> 
+                        <%= (
+                            report["inputs"][i] == 'opt_c' &&
+                            data[i]['ans'] != 'opt_c'
+                            ) ? "wrong" : "nuetral" %> ">
                         <%= data[i]['opt_c'] %>
                     </label>
                     <% } %>
 
                     <% if (data[i]['opt_d']) { %> 
                     <label class="d-block p-2 
-                        <%= (data[i]['ans'] == 'opt_d') ? "correct" : "" %>">
+                        <%= (data[i]['ans'] == 'opt_d') ? "correct" : "nuetral" %> 
+                        <%= (
+                            report["inputs"][i] == 'opt_d' &&
+                            data[i]['ans'] != 'opt_d'
+                            ) ? "wrong" : "nuetral" %> ">
                         <%= data[i]['opt_d'] %>
                     </label>
                     <% } %>
                     
                     <% if (data[i]['opt_e']) { %>
                     <label class="d-block p-2 
-                        <%= (data[i]['ans'] == 'opt_e') ? "correct" : "" %>">
+                        <%= (data[i]['ans'] == 'opt_e') ? "correct" : "nuetral" %> 
+                        <%= (
+                            report["inputs"][i] == 'opt_e' &&
+                            data[i]['ans'] != 'opt_e'
+                            ) ? "wrong" : "nuetral" %> ">
                         <%= data[i]['opt_e'] %>
                     </label>
                     <% } %>
@@ -53,5 +80,11 @@
             </li>
             <% } %>
         </ol>
+        <% if (report["score"] < 100) { %>
+            <a href="/quiz?id=<%=id%>" class="btn btn-outline-dark">Retake</a>
+        <% } else { %>
+            <a href="/all-quiz" class="btn btn-outline-dark">Find Another</a>
+        <% } %>
+        <hr/>
     </div>
 </div>
