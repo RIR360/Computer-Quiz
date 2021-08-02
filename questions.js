@@ -51,7 +51,7 @@ const data = [
             opt_b: 'Jeandoe.gmail.com',
             opt_c: 'Bob Smith@yahoo.com',
             opt_d: 'Johndoe@cincinnatilibrary.org',
-            ans: 'opt_c'
+            ans: 'opt_d'
         },
         {
             que: 'Which two websites offer free email service?',
@@ -124,9 +124,9 @@ const data = [
         },
         {
             que: 'Which two categories can low-level language be divided into?',
-            opt_a: 'Assembly language',
-            opt_b: 'Basic language',
-            opt_c: 'Machine languag',
+            opt_a: 'Assembly language and Machine language',
+            opt_b: 'Basic language and Cobal language',
+            opt_c: 'Java and Javascript language',
             opt_d: 'None of the above.',     
             ans: 'opt_a'
         }, 
@@ -227,7 +227,7 @@ const data = [
         {
             /* Extra */
             id: 3,
-            set: 'Types Of Computers',
+            set: ' Computer Build Quiz',
             dif: 'low',
             /* Extra */
             que: 'When using a grounding mat, we are protecting ourselves from the computer.',
