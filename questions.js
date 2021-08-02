@@ -327,6 +327,365 @@ const data = [
             opt_d: 'Ground Bracelet',
             ans: 'opt_a'
         }             
+    ],
+    [
+        {
+            /* Extra */
+            id: 4,
+            set: 'How A Computer Works?',
+            dif: 'low',
+            /* Extra */
+            que: 'There are millions of tiny _________________ on a microprocessor.',
+            opt_a: 'Hairs', 
+            opt_b: 'Transistors',
+            opt_c: 'Holes', 
+            opt_d: 'Scanners',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'Electrons in a  transistor "jump" from the source to the ______________.',
+            opt_a: 'Gate', 
+            opt_b: 'Semiconductor',
+            opt_c: 'Drain', 
+            opt_d: 'Software',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'The second step of a microprocessor is _____________________.',
+            opt_a: 'Fetch', 
+            opt_b: 'Execute',
+            opt_c: 'Power', 
+            opt_d: 'Decode',
+            ans: 'opt_d'
+        },
+        {
+            que: 'The microprocessor is the main part of the computer?',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        },
+        {
+            que: 'Computers do math very _________________',
+            opt_a: 'Slow', 
+            opt_b: 'Fast',
+            ans: 'opt_b'
+        },
+        {
+            que: 'The first step of a microprocessor is ______________.',
+            opt_a: 'Decode', 
+            opt_b: 'Execute',
+            opt_c: 'Fetch', 
+            opt_d: 'Crash',
+            ans: 'opt_c'
+        },
+        {
+            que: '____________________ tells the microprocessor what to do.',
+            opt_a: 'Output', 
+            opt_b: 'Software',
+            opt_c: 'Little humans inside the CPU', 
+            opt_d: 'Gate',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Computers think like a human brain.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_b'
+        },
+        {
+            que: 'A transistor is made of _________________, a semiconductor.',
+            opt_a: 'Gate', 
+            opt_b: 'Silicon',
+            opt_c: 'Source', 
+            opt_d: 'Drain',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Decode decides on the ______________',
+            opt_a: 'Math operation', 
+            opt_b: 'Spelling',
+            opt_c: 'Software', 
+            opt_d: 'Output device',
+            ans: 'opt_a'
+        },
+        {
+            que: 'There are _____ main types of memory.',
+            opt_a: '1', 
+            opt_b: '2',
+            opt_c: '4', 
+            opt_d: '6',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'A fab must be very _______________ to protect the delicate circuits of a microprocessor.',
+            opt_a: 'Bright', 
+            opt_b: 'Sterile',
+            opt_c: 'Secure', 
+            opt_d: 'Secret',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'The smallest part of a digital picture is called a ___________',
+            opt_a: 'Byte', 
+            opt_b: 'Gigabyte',
+            opt_c: 'Bit', 
+            opt_d: 'Pixel',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Microprocessors are made in a ______________.',
+            opt_a: 'Lab', 
+            opt_b: 'Factory',
+            opt_c: 'Fab', 
+            opt_d: 'House',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'A _________ is the smallest unit of digital information.',
+            opt_a: 'Pixel', 
+            opt_b: 'Bit',
+            opt_c: 'Byte', 
+            opt_d: 'Centimeter',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'What does execute do in the microprocessor?',
+            opt_a: 'Fetches data from software', 
+            opt_b: 'Decides on the math operation',
+            opt_c: 'Does the math', 
+            opt_d: 'Burps',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'Computers only function by doing _______________.',
+            opt_a: 'Reading', 
+            opt_b: 'Writing',
+            opt_c: 'Math', 
+            opt_d: 'Science',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'A microprocessor works millions of times per ________________.',
+            opt_a:  'Minute', 
+            opt_b: 'Hour',
+            opt_c: 'Second', 
+            opt_d: 'Day',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'RAM is a type of ____________________________.',
+            opt_a: 'Input', 
+            opt_b: 'Output',
+            opt_c: 'Microprocessor', 
+            opt_d: 'Memory',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'The third step of a microprocessor is ____________________.',
+            opt_a: 'Execute', 
+            opt_b: 'Fetch',
+            opt_c: 'Crash', 
+            opt_d: 'Decode',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'A binary code is made up of ___________________.',
+            opt_a: '1s and 2s', 
+            opt_b: '0s and 2s',
+            opt_c: '1s and 4s', 
+            opt_d: '0s and 1s',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Fetch receives the data from the memory/software.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'An example of an input device is:',
+            opt_a: 'Keyboard', 
+            opt_b: 'Monitor',
+            opt_c: 'Speakers', 
+            opt_d: 'Printer',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'There are _______ steps of a microprocessor.',
+            opt_a: 'Two', 
+            opt_b: 'Three',
+            opt_c: 'Four', 
+            opt_d: 'Five',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'An example of an output device is:',
+            opt_a: 'Keyboard', 
+            opt_b: 'Mouse',
+            opt_c: 'Printer', 
+            opt_d: 'Scanner',
+            ans: 'opt_c',
+        },   
+    ],
+    [
+        {
+            /* Extra */
+            id: 5,
+            set: 'Knowledge Trivia Test On Computer Terms And Vocabulary!',
+            dif: 'low',
+            /* Extra */
+            que: 'An executed program that loads the first piece of software and starts a computer.',
+            opt_a: 'Byte',
+            opt_b: 'Boot process',
+            opt_c: 'File virus',
+            opt_d: 'System unit',
+            ans: 'opt_b'
+        },
+        {
+            que: 'A collection of data, information, or code that is loaded onto your computer without your knowledge and runs against your wishes.  It can use all of your available memory and bring your system to a halt.',
+            opt_a: 'Boot process', 
+            opt_b: 'Resolution',
+            opt_c: 'Rom', 
+            opt_d: 'File virus',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'The fastest type of computer.',
+            opt_a: 'Supercomputer', 
+            opt_b: 'Byte',
+            opt_c: 'Silicon chip', 
+            opt_d: 'Pixels',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Abbreviation for the binary term, a unit of storage capable of holding a single character.',
+            opt_a: 'Output', 
+            opt_b: 'Icons',
+            opt_c: 'Byte', 
+            opt_d: 'Workstation',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'The main part of a personal computer, including the chassis, microprocessor, main memory, bus, and ports.  Does NOT include the keyboard or monitor or any peripheral devices.',
+            opt_a: 'Terabyte', 
+            opt_b: 'Server',
+            opt_c: 'Mainframe', 
+            opt_d: 'System unit',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Approximately 1 trillion bytes.',
+            opt_a: 'Terabyte', 
+            opt_b: 'Boot process',
+            opt_c: 'Silicon chip', 
+            opt_d: 'Pentium',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'A small picture that represents an object or program.',
+            opt_a: 'Information', 
+            opt_b: 'Icon',
+            opt_c: 'Mainframe', 
+            opt_d: 'Resolution',
+            ans: 'opt_b'
+        }, 
+        {
+            que: "A portable computer that is small enough to be held in one's hand.",
+            opt_a: 'Icon', 
+            opt_b: 'Program',
+            opt_c: 'Handheld', 
+            opt_d: 'Server',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'An organized list of instructions that, when executed, causes the computer to behave in a predetermined manner.',
+            opt_a: 'Pentium', 
+            opt_b: 'Gigabyte',
+            opt_c: 'Workstation', 
+            opt_d: 'Program',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'A type of computer used for engineering applications, desktop publishing, software development and other types of applications that require a moderate amount of computing power and relatively high-quality graphics capabilities.',
+            opt_a: 'Workstation', 
+            opt_b: 'File virus',
+            opt_c: 'Output', 
+            opt_d: 'Rom',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'A computer or device on a network that manages network resources.',
+            opt_a: 'Silicon chip', 
+            opt_b: 'Resolution',
+            opt_c: 'Server', 
+            opt_d: 'File virus',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'A collection of facts and data about a specific subject.',
+            opt_a: 'Icon', 
+            opt_b: 'Information',
+            opt_c: 'Rom', 
+            opt_d: 'Byte',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'A small piece of semi-conducting material (usually a nonmetallic chemical element in the carbon family) on which an integrated circuit is embedded.',
+            opt_a: 'Output', 
+            opt_b: 'Information',
+            opt_c: 'Pentium', 
+            opt_d: 'Silicon chip',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'A very large and expensive computer capable of supporting thousands of users at the same time.',
+            opt_a: 'Mainframe', 
+            opt_b: 'File virus',
+            opt_c: 'Terabyte', 
+            opt_d: 'Pixel',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'An acronym, or single letter abbreviation, for Read-Only Memory, computer memory on which data has been prerecorded.',
+            opt_a: 'ROM', 
+            opt_b: 'Resolution',
+            opt_c: 'Pentium', 
+            opt_d: 'Gigabyte',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Anything that comes out of a computer.',
+            opt_a: 'Handheld', 
+            opt_b: 'Byte',
+            opt_c: 'Output', 
+            opt_d: 'ROM',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'A microprocessor.',
+            opt_a: 'Icon', 
+            opt_b: 'Main frame',
+            opt_c: 'Supercomputer', 
+            opt_d: 'Pentium',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Refers to the sharpness and clarity of an image.',
+            opt_a: 'Pixels', 
+            opt_b: 'Resolution',
+            opt_c: 'File virus', 
+            opt_d: 'Work station',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'Short for Picture Element; a single point on a graphic image.',
+            opt_a: 'Pixel', 
+            opt_b: 'Byte',
+            opt_c: 'Semiconductor', 
+            opt_d: 'Server',
+            ans: 'opt_a'
+        }
+
     ]
 ]
 
