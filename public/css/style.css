@@ -1,0 +1,15 @@
+.q-options label:hover {
+    background: var(--bs-light);
+    cursor: pointer;
+}
+.correct {
+    background: var(--bs-warning);
+}
+.correct::after {
+    content: " - Correct Answer";
+    color: var(--bs-secondary);
+}
+.wrong {
+    background: var(--bs-danger);
+    color: var(--bs-light);
+}

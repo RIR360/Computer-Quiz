@@ -2,9 +2,9 @@
     <div class="container py-3">
         <h1 class="display-1 py-2"> <%- title %>  </h1>
         <hr/>
-        <p class="col-sm-6 fs-4">
-            Difficulty: <%= data[0]['dif'] %> <br/>
-            Total: <%= data.length %> Questions
+        <p class="col-sm-6 fs-5">
+            <strong>Difficulty:</strong> <%= data[0]['dif'] %> <br/>
+            <strong>Total:</strong> <%= data.length %> Questions
         </p>
     </div>
 </div>
@@ -12,33 +12,37 @@
 <div class="container-fluid py-5">
     <form class="container" action="/quiz?id=<%= data[0]['id'] %>" method="POST">
         <ol>
-
             <% for(let i = 0; i < data.length; i++) { %>
-            <li class="fs-5">
-                <h2> <%= data[i]['que'] %> </h2>
-                <div class="bg-light p-2">
-                    <label>
+            <li>
+                <h3 class="col-sm-8"> <%= data[i]['que'] %> </h3>
+                <div class="q-options my-2">
+
+                    <label class="d-block p-2">
                         <input type="radio" name="q<%= i %>" value="opt_a" required>
                         <%= data[i]['opt_a'] %>
-                    </label><br/>
-                    <label>
+                    </label>
+
+                    <label class="d-block p-2">
                         <input type="radio" name="q<%= i %>" value="opt_b" required>
                         <%= data[i]['opt_b'] %>
-                    </label><br/>
+                    </label>
+
                     <% if (data[i]['opt_c']) { %> 
-                    <label>
+                    <label class="d-block p-2">
                         <input type="radio" name="q<%= i %>" value="opt_c" required>
                         <%= data[i]['opt_c'] %>
-                    </label><br/>
+                    </label>
                     <% } %>
+
                     <% if (data[i]['opt_d']) { %> 
-                    <label>
+                    <label class="d-block p-2">
                         <input type="radio" name="q<%= i %>" value="opt_d" required>
                         <%= data[i]['opt_d'] %>
                     </label>
                     <% } %>
+                    
                     <% if (data[i]['opt_e']) { %> 
-                    <label>
+                    <label class="d-block p-2">
                         <input type="radio" name="q<%= i %>" value="opt_e" required>
                         <%= data[i]['opt_e'] %>
                     </label>

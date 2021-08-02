@@ -67,7 +67,7 @@ app.post("/quiz", (req, res) => {
     const result = report(user_answer, data_portion);
 
     // redirect to the homepage
-    res.render("report", {title: data_portion[0]["set"], data: result});
+    res.render("report", {title: data_portion[0]["set"], report: result, data: data_portion});
 });
 
 app.get("/about", (req, res) => {

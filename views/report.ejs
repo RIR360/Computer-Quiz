@@ -1,18 +1,57 @@
 <div class="container-fluid bg-warning">
     <div class="container py-3">
-        <h1 class="display-1 py-2">Result</h1>
+        <h1 class="display-1 py-2">You Scored <%= report["score"] %>%</h1>
         <hr/>
-        <p class="col-sm-6 fs-4">
-            Quiz: <%- title %>
+        <p class="col-sm-6 fs-5">
+            <strong>Quiz:</strong> <%- title %> <br/>
+            <strong>Correct:</strong> <%- report["correct"] %> Questions<br/>
+            <strong>Wrong:</strong> <%- report["wrong"] %> Questions<br/>
         </p>
     </div>
 </div>
 
 <div class="container-fluid py-5">
     <div class="container">
-        <h2>Your inputs: </h2>
-        <% for (i in data) { %>
-            <%= data[i] %> <br/>
-        <% } %> 
+        <h2 class="mb-4 text-muted">Full Report:</h2>
+        <ol>
+            <% for(let i = 0; i < data.length; i++) { %>
+            <li>
+                <h3 class="col-sm-8"> <%= data[i]['que'] %> </h3>
+                <div class="my-2">
+
+                    <label class="d-block p-2 
+                        <%= (data[i]['ans'] == 'opt_a') ? "correct" : "" %> ">  
+                        <%= data[i]['opt_a'] %>
+                    </label>
+                    
+                    <label class="d-block p-2 
+                        <%= (data[i]['ans'] == 'opt_b') ? "correct" : "" %>">
+                        <%= data[i]['opt_b'] %>
+                    </label>
+
+                    <% if (data[i]['opt_c']) { %> 
+                    <label class="d-block p-2 
+                        <%= (data[i]['ans'] == 'opt_c') ? "correct" : "" %>">
+                        <%= data[i]['opt_c'] %>
+                    </label>
+                    <% } %>
+
+                    <% if (data[i]['opt_d']) { %> 
+                    <label class="d-block p-2 
+                        <%= (data[i]['ans'] == 'opt_d') ? "correct" : "" %>">
+                        <%= data[i]['opt_d'] %>
+                    </label>
+                    <% } %>
+                    
+                    <% if (data[i]['opt_e']) { %>
+                    <label class="d-block p-2 
+                        <%= (data[i]['ans'] == 'opt_e') ? "correct" : "" %>">
+                        <%= data[i]['opt_e'] %>
+                    </label>
+                    <% } %>
+                </div>
+            </li>
+            <% } %>
+        </ol>
     </div>
 </div>
