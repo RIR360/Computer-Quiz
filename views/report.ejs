@@ -1,12 +1,17 @@
 <div class="container-fluid bg-warning">
     <div class="container py-3">
-        <% if (report["score"] < 100) { %>
-            <h1 class="display-1 py-2">You Scored <%= report["score"] %>%</h1>
-            <a href="/quiz?id=<%=id%>" class="btn btn-outline-dark">Retake</a>
-        <% } else { %>
+
+        <% if (report["score"] == 100) { %>
             <h1 class="display-1 py-2">Congratulations for <%= report["score"] %>%</h1>
             <a href="/all-quiz" class="btn btn-outline-dark">Find Another</a>
+        <% } else if (report["score"] == 0) { %>
+            <h1 class="display-1 py-2">Sorry for <%= report["score"] %>%</h1>
+            <a href="/quiz?id=<%=id%>" class="btn btn-outline-dark">Retake</a>
+        <% } else { %>
+            <h1 class="display-1 py-2">You Scored <%= report["score"] %>%</h1>
+            <a href="/quiz?id=<%=id%>" class="btn btn-outline-dark">Retake</a>
         <% } %>
+        
         <hr/>
         <p class="col-sm-6 fs-5">
             <strong>Quiz:</strong> <%- title %> <br/>
@@ -18,7 +23,6 @@
 
 <div class="container-fluid py-5">
     <div class="container">
-        <p><%= report["inputs"]  %> </p>
         <h2 class="mb-4 text-muted">Full Report:</h2>
         <ol>
             <% for(let i = 0; i < data.length; i++) { %>
@@ -80,10 +84,10 @@
             </li>
             <% } %>
         </ol>
-        <% if (report["score"] < 100) { %>
-            <a href="/quiz?id=<%=id%>" class="btn btn-outline-dark">Retake</a>
-        <% } else { %>
+        <% if (report["score"] == 100) { %>
             <a href="/all-quiz" class="btn btn-outline-dark">Find Another</a>
+        <% } else { %>
+            <a href="/quiz?id=<%=id%>" class="btn btn-outline-dark">Retake</a>
         <% } %>
         <hr/>
     </div>

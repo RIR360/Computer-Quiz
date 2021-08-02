@@ -13,22 +13,28 @@ const report = (answers, database) => {
      const user_inputs = [];
      let 
         i = 0,
-        correct = 0, 
+        correct = 0,
         wrong = 0,
         score;
 
-    for (index in answers)
-    {
-        let a = answers[index];
+    let len = database.length;
+    for (; i < len; i++) {
+        
+        let a = answers[`q${i}`];
         let b = database[i]['ans'];
-        user_inputs.push(a);
     
-        if (a == b) {
-            correct++;
-        } else {
+        if (!a) {
             wrong++;
+        } else {
+            user_inputs.push(a);
+
+            if (a == b) {
+                correct++;
+            }
+            else {
+                wrong++;
+            }
         }
-        i++;
     }
     score = Math.round((correct / i) * 100);
 

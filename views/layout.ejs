@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/fav.ico" type="image/ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title> <%- title %>  </title>
@@ -22,15 +23,25 @@
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="/about" class="nav-link">About<img src="img/info.png" alt="" width="15px"/></a>
+                        <a href="/about" class="nav-link">
+                            <img class="mx-2" src="img/info.png" alt="" width="20px"/>
+                            About
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Main -->
     <main id="main">
         <%- body %>
     </main>
+    <!-- Widgets -->
+    <div class="go-top">
+        <a href="#">
+            <img src="img/up.png" alt="scrool to top icon" width="50">
+        </a>
+    </div>
     <!-- Footer -->
     <footer>
         <div class="container-fluid py-2">
