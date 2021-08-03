@@ -686,7 +686,270 @@ const data = [
             ans: 'opt_a'
         }
 
+    ],
+    [
+        {
+                /* Extra */
+                id: 6,
+                set: 'How Well You Know Computers?',
+                dif: 'low',
+                /* Extra */
+                que: 'The Safest way to shut down a computer is:',
+                opt_a: 'Pull the Power Cord.',
+                opt_b: 'Press the Power button.',
+                opt_c: 'Press Start on a PC, Special on a Mac.',
+                opt_d: 'Press the power button on the Power Switch.',
+                opt_e: 'Run a couple of high powered magnets along the frame of the tower.',
+                ans: 'opt_c'
+            },
+            {
+                que: 'Which item is considered the "brains" of the computer?  Responsible for decision making, and processing information?',
+                opt_a: 'RAM', 
+                opt_b: 'ROM',
+                opt_c: 'CPU', 
+                opt_d: 'VGA',
+                opt_e: 'Memory',
+                ans: 'opt_c'
+            },
+            {
+                que: 'On a Mac to look for a file, use:',
+                opt_a: 'Search', 
+                opt_b: 'Finder',
+                opt_c: 'Lookup', 
+                opt_d: 'Fetch',
+                opt_e: 'Seeker',
+                ans: 'opt_b'
+            },
+            {
+                que: 'If something is not working correctly on your computer, the first thing you should check is...',
+                opt_a: 'The help file', 
+                opt_b: 'Who was the last person using this computer?',
+                opt_c: "Forget this, I'm calling Technical Support.", 
+                opt_d: 'Make sure everything is plugged in correctly and turned on.',
+                opt_e: 'The manual',
+                ans: 'opt_c'
+            },
+            {
+                que: 'To close a program running on a Mac, click the "x" in the top left corner, as opposed to the top right corner where you would close a PC Window.',
+                opt_a: 'True', 
+                opt_b: 'False',
+                ans: 'opt_a'
+            },
+            {
+                que: 'Which of the following are "input" devices?',
+                opt_a: 'Scanner', 
+                opt_b: 'SD Card',
+                opt_c: 'Touch Screen Monitor', 
+                opt_d: 'Battery',
+                
+                ans: 'opt_e'
+            },
+            {
+                que: 'Which is an example of Optical Media?',
+                opt_a: 'Webcam', 
+                opt_b: 'Retinal Scanner',
+                opt_c: 'Digital Camera', 
+                opt_d: 'CD-ROM',
+                opt_e: 'Monitor',
+                ans: 'opt_d'
+            },
+            {
+                que: "If you are running out of room on your computer and you don't have any money for new equipment you might be able to:",
+                opt_a: 'Purchase and install another hard drive.', 
+                opt_b: 'Add more memory.',
+                opt_c: 'Compress the hard drive.', 
+                opt_d: 'Format the hard drive.',
+                opt_e: 'Hook up a second monitor.',
+                ans: 'opt_c'
+            },
+            {
+                que: 'Your computer screen suddenly changes on you. Images and Windows are much bigger than you are used to and everything seems washed out like there are fewer colors to choose from. You suspect there is a problem with your video card, but what else might it be:',
+                opt_a: 'The monitor cable may have come loose.', 
+                opt_b: 'The government may be sweeping your computer looking for terrorist activity.',
+                opt_c: 'Your neighbors may be playing "Rock Band" too loudly again.', 
+                opt_d: 'The dead may be trying to communicate with you.',
+                opt_e: 'Your monitor may have run out of color pixels. It is time to bring the monitor in to your service tech to have the color refilled.',
+                ans: 'opt_a'
+            },
+            {
+                que: 'Who can give me all the training I need to really understand my computer and take full advantage of its features, at an affordable rate?',
+                opt_a: 'Learnkey', 
+                opt_b: 'Learn Key',
+                opt_c: 'Learnkey.com', 
+                opt_d: 'Www.learnkey.com',
+                opt_e: 'all of these',
+                ans: 'opt_e'
+            }
+        
+    ],
+    [
+        {
+            /* Extra */
+            id: 7,
+            set: 'GK Test On Computer Abbreviations And Acronym ',
+            dif: 'low',
+            /* Extra */
+            que: 'ROM',
+            opt_a: 'Random Only Memory',
+            opt_b: 'Read Only Memory',
+            opt_c: 'Right On Memory',
+            opt_d: 'Read One Memory',
+            ans: 'opt_b'
+        },
+        {
+            que: 'RAM',
+            opt_a: 'Random Access Memory', 
+            opt_b: 'Read And Memorise',
+            opt_c: 'Random Accent Memory', 
+            opt_d: 'Read Access Memory',
+            ans: 'opt_a'
+        },
+        {
+            que: 'CPU',
+            opt_a: 'Central Processing Unit', 
+            opt_b: 'Central Processor Unit',
+            opt_c: 'Certain Processing Unit', 
+            opt_d: 'Centre Processing Unit',
+            ans: 'opt_a'
+        },
+        {
+            que: 'LCD',
+            opt_a: 'Light Crystal Display', 
+            opt_b: 'Light Central Diode',
+            opt_c: 'Liquid Crystal Diode', 
+            opt_d: 'Liquid Crystal Display',
+            ans: 'opt_d'
+        },
+        {
+            que: 'TFT',
+            opt_a: 'Thin Flat Thing', 
+            opt_b: 'Thin Film Television',
+            opt_c: 'Thin Film Transisor', 
+            opt_d: 'Thin Faulty Transisor',
+            ans: 'opt_c'
+        },
+        {
+            que: 'PDA',
+            opt_a: "People's Data Assistant", 
+            opt_b: 'Personal Data Assistant',
+            opt_c: "People's Digital Assistan",
+            opt_d: 'Personal Digital Assistant',
+            ans: 'opt_d'
+        },
+        {
+            que: 'ALU',
+            opt_a: 'Arithmetic Logic Unit', 
+            opt_b: 'Accountant Learning Unit',
+            opt_c: 'Accountant Logic Unit', 
+            opt_d: 'Arithmetic Learning Unit',
+            ans: 'opt_a'
+        },
+        {
+            que: 'HCI',
+            opt_a: 'Hot Computer Input', 
+            opt_b: 'Human Computer Input',
+            opt_c: 'Human Computer Instructions', 
+            opt_d: 'Human Computer Interface',
+            ans: 'opt_d'
+        },
+        {
+            que: 'MB',
+            opt_a: 'Megabit', 
+            opt_b: 'Megahertz',
+            opt_c: 'Magabyte', 
+            opt_d: 'Megabyte',
+            ans: 'opt_d'
+        },
+        {
+            que: 'CD-RW',
+            opt_a: 'Compact-Disk Recordable', 
+            opt_b: 'Computer-Disk ReWritable',
+            opt_c: 'Compact-Drive ReWritable', 
+            opt_d: 'Compact-Disk ReWritable',
+            ans: 'opt_d'
+        },
+        {
+            que: 'WWW',
+            opt_a: 'Whole World Web', 
+            opt_b: 'World Weather Web',
+            opt_c: 'Whole Wide Web', 
+            opt_d: 'World Wide Web',
+            ans: 'opt_d'
+        },
+        {
+            que: 'OCR',
+            opt_a: 'Output Character Recognition', 
+            opt_b: 'Optical Character Recognition',
+            opt_c: 'Output Character Recorder', 
+            opt_d: 'Optical Character Recorder',
+            ans: 'opt_b '
+        },
+        {
+            que: 'LAN',
+            opt_a: 'Logical Area Network', 
+            opt_b: 'Local Area Network',
+            opt_c: 'Little Area Network', 
+            opt_d: 'Light Area Network',
+            ans: 'opt_b'
+        },
+        {
+            que: 'WAN',
+            opt_a: 'Wide Area Network', 
+            opt_b: 'Whole Area Network',
+            opt_c: 'World Area Network', 
+            opt_d: 'Worldwide Area Network',
+            ans: 'opt_a'
+        },
+        {
+            que: 'HTML',
+            opt_a: 'Hypertext Markup Language', 
+            opt_b: 'Hypertext Makup Language',
+            opt_c: 'Hypertext Makup Language', 
+            opt_d: 'Hypertext Makup Language',
+            ans: 'opt_a'
+        },
+        {
+            que: 'ISP',
+            opt_a: 'Internet Servant Provider', 
+            opt_b: 'Internet Server Provider',
+            opt_c: 'Internet Server Protection', 
+            opt_d: 'Internal Server Provider',
+            ans: 'opt_b'
+        },
+        {
+            que: 'DPA',
+            opt_a: 'Digital Protection Act', 
+            opt_b: 'Digital Prohibit Act',
+            opt_c: 'Data Protection Act', 
+            opt_d: 'Data Prohibit Act',
+            ans: 'opt_c'
+        },
+        {
+            que: 'RTF',
+            opt_a: 'Right Text Format', 
+            opt_b: 'Read Text Format',
+            opt_c: 'Rich Text Format', 
+            opt_d: 'Royal Text Format',
+            ans: 'opt_c'
+        },
+        {
+            que: 'GUI',
+            opt_a: 'Graphical User Input', 
+            opt_b: 'Graphical User Interface',
+            opt_c: 'General User Interface', 
+            opt_d: 'General User Interface',
+            ans: 'opt_b'
+        },
+        {
+            que: 'WIMP',
+            opt_a: 'Window Icon Menu Pointer', 
+            opt_b: 'Window Icon Mouse Pointer',
+            opt_c: 'Window Icon Menu Pull down menu', 
+            opt_d: 'Window Icon Menu Pen',
+            ans: 'opt_a'
+        },
     ]
+
 ]
 
 module.exports = data;
