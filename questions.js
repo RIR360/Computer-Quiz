@@ -948,7 +948,310 @@ const data = [
             opt_d: 'Window Icon Menu Pen',
             ans: 'opt_a'
         },
+    ],
+    [
+        
+        {
+            /* Extra */
+            id: 8,
+            set: 'Basic Computer Terms!',
+            dif: 'low',
+            /* Extra */
+            que: 'What do the letters RAM stand for?',
+            opt_a: 'Remote Access Master',
+            opt_b: 'Random Access Memory',
+            opt_c: 'Render Appropriate Memory',
+            opt_d: 'Random Access Master',
+            ans: 'opt_b'
+        },
+        {
+            que: 'What do the letters ROM stand for?',
+            opt_a: 'Random Ocular Memory', 
+            opt_b: 'Remote Only Memory',
+            opt_c: 'Read Only Memory', 
+            opt_d: 'IDK',
+            ans: 'opt_c'
+        },
+        {
+            que: 'Which of the following uses RAM?',
+            opt_a: 'A USB stick', 
+            opt_b: 'Streaming music',
+            opt_c: 'Streaming video', 
+            opt_d: 'Opening a program',
+            opt_e: 'All of the above',
+            ans: 'opt_e'
+        },
+        {
+            que: 'Which of the following is NOT magnetic storage?',
+            opt_a: 'An internal hard drive', 
+            opt_b: 'A CD ROM',
+            opt_c: 'An external hard drive', 
+            opt_d: 'A floppy disk',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Which of the following objects will erase a hard drive?',
+            opt_a: 'A screwdriver', 
+            opt_b: 'A magnet',
+            opt_c: 'A hammer', 
+            opt_d: 'Orange juice',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Which of the following is NOT an example of hardware?',
+            opt_a: 'Microsoft Word', 
+            opt_b: 'A Mouse',
+            opt_c: 'A Hard drive', 
+            opt_d: 'A Monitor',
+            opt_e: 'A Keyboard',
+            ans: 'opt_a'
+        },
+        {
+            que: 'Complete this sentence: An application is a program that does...',
+            opt_a: 'Just one thing', 
+            opt_b: 'Everything required to run a computer',
+            opt_c: 'Nothing important', 
+            opt_d: 'IDK',
+            ans: 'opt_a'
+        },
+        {
+            que: 'Which of the following is NOT an example of an application?',
+            opt_a: 'Windows XP', 
+            opt_b: 'Microsoft Word',
+            opt_c: 'IMovie',  
+            opt_d: 'Firefox',
+            opt_e: 'Powerpoint',
+            ans: 'opt_a'
+        },
+        {
+            que: 'If RAM is like a shopping cart, ROM is like a...',
+            opt_a: 'Basket', 
+            opt_b: 'Coffin',
+            opt_c: 'Spaghetti strainer', 
+            opt_d: 'Cheese log',
+            ans: 'opt_b'
+        },
+        {
+            que: 'True or False: You can change something stored in ROM?',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_b'
+        },
+        {
+            que: 'True or False: A USB stick is just a piece of RAM in a plastic case?',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        },
+        {
+            que: 'True or False: A CD ROM has binary code burned into it as a series of bumps.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        },
+        {
+            que: 'Which of the following is NOT a form of storage?',
+            opt_a: 'Magnetic', 
+            opt_b: 'RAM',
+            opt_c: 'ROM', 
+            opt_d: 'RIM',
+            ans: 'opt_d'
+        }
+    ],
+    [
+        {
+            /* Extra */
+            id: 7,
+            set: 'Computer Maintenance ',
+            dif: 'low',
+            /* Extra */
+            que: '9 bit SIMMs have how many pins',
+            opt_a: '30',
+            opt_b: '25',
+            opt_c: '40',
+            ans: 'opt_a'
+        },
+        {
+            que: 'How many bits is the system data bus for a Pentium Processor?',
+            opt_a: '64', 
+            opt_b: '54',
+            opt_c: '44', 
+            ans: 'opt_a'
+        },
+        {
+            que: 'How many bits is the data bus for a 486DX4 processor?',
+            opt_a: '32', 
+            opt_b: '52',
+            opt_c: '42', 
+            ans: 'opt_a'
+        },
+        {
+            que: 'A serial data port on your PC would have how many pinouts?',
+            opt_a: '9', 
+            opt_b: '5',
+            opt_c: '7', 
+            ans: 'opt_a'
+        },
+        {
+            que: 'How many wires does the standard IDE drive cable have?',
+            opt_a: '50', 
+            opt_b: '55',
+            opt_c: '40', 
+            ans: 'opt_c'
+        },
+        {
+            que: 'How big is the conventional memory in a PC?',
+            opt_a: '640K', 
+            opt_b: '340K',
+            opt_c: '550K', 
+            ans: 'opt_a'
+        },
+        {
+            que: 'How many bits is the system bus for a 386SX processor?',
+            opt_a: '30', 
+            opt_b: '16',
+            opt_c: '25', 
+            ans: 'opt_b'
+        },
+        {
+            que: 'How many bits is the system bus for a 386DX processor?',
+            opt_a: '34', 
+            opt_b: '72',
+            opt_c: '30', 
+            opt_d: '32',
+            ans: 'opt_d'
+        },
+        {
+            que: 'What is the maximum length for a parallel cable?',
+            opt_a: '15 ft.', 
+            opt_b: '17ft',
+            opt_c: '16ft', 
+            ans: 'opt_a'
+        },
+        {
+            que: 'What IRQ does the real time clock use?',
+            opt_a: '7', 
+            opt_b: '5',
+            opt_c: '8', 
+            opt_d: '9',
+            ans: 'opt_c'
+        },
+        {
+            que: 'What would you set your multimeter to if you wanted to detect an AC ripple?',
+            opt_a: 'AC Voltage', 
+            opt_b: 'DC Voltage',
+            opt_c: 'Standard Voltage',
+            ans: 'opt_a'
+        },
+        {
+            que: 'What form of software can also be called firmware?',
+            opt_a: 'Operating System', 
+            opt_b: 'System BIOS',
+            opt_c: 'Installation drivers', 
+            ans: 'opt_b'
+        },
+        {
+            que: 'After you install a new floppy drive and restart the system, the floppy drive light stays on constantly and you get an “FDD Controller Failure” POST error. What is the problem?',
+            opt_a: 'Floppy cable not connected', 
+            opt_b: 'Floppy cable on forwards',
+            opt_c: 'Floppy cable on backwards', 
+            ans: 'opt_c'
+        },
+        {
+            que: 'What type of port communicates information to a peripheral device one bit at a time?',
+            opt_a: 'Cerial port', 
+            opt_b: 'Serial port',
+            opt_c: 'Optical port', 
+            ans: 'opt_b'
+        },
+        {
+            que: 'Should you wear a grounding strap when servicing a CRT monitor?',
+            opt_a: 'Yes', 
+            opt_b: 'No',
+            ans: 'opt_b'
+        },
+        {
+            que: 'What are the 4 types of DC voltage usually produced by a power supply?',
+            opt_a: '-5V,+13V,-4V,+5V', 
+            opt_b: '+12V, +4V,-5V,-13V',
+            opt_c: '+5V -5V +12V -12V +5V, -5V ,-12V ,+12V', 
+            ans: 'opt_c'
+        },
+        {
+            que: 'Which is the largest computer in terms of physical size?',
+            opt_a: 'The mainframe computer.', 
+            opt_b: 'The microcomputer.',
+            opt_c: 'The tower computer.',
+            opt_d: 'The supercomputer.', 
+            ans: 'opt_a'
+        },
+        {
+            que: 'What component of the computer processes data?',
+            opt_a: 'The RAM', 
+            opt_b: 'The Storage devices.',
+            opt_c: 'The Processor.',
+            opt_d: 'The Monitor.', 
+            ans: 'opt_c'
+        },
+        {
+            que: 'Which computer below uses the screen touch technology?',
+            opt_a: 'The palmtop.', 
+            opt_b: 'The laptop.',
+            opt_c: 'The minicomputer.',
+            opt_d: 'The desktop computer.', 
+            ans: 'opt_a'
+        },
+        {
+            que: 'Which below is an application program?',
+            opt_a: 'Windows Explorer.', 
+            opt_b: 'Microsoft DOS.',
+            opt_c: 'Microsoft OS.',
+            opt_d: 'Microsoft Access', 
+            ans: 'opt_d'
+        },
+        {
+            que: 'Which computer device below is an example of an output hardware?',
+            opt_a: 'The keyboard.', 
+            opt_b: 'The printer.',
+            opt_c: 'The scanner.',
+            opt_d: 'The microphone', 
+            ans: 'opt_b'
+        },
+        {
+            que: 'Which is the first part of windows that display when the computer finish booting?',
+            opt_a: 'My computer.', 
+            opt_b: 'The Desktop.',
+            opt_c: 'My documents.',
+            opt_d: 'The application programs.', 
+            ans: 'opt_b'
+        },
+        {
+            que: 'Which storage device of the computer stores or keeps the operating system and application programs?',
+            opt_a: 'The flash disk.', 
+            opt_b: 'The diskette',
+            opt_c: 'The CD ROM',
+            opt_d: 'The hard disk.', 
+            ans: 'opt_d'
+        },
+        {
+            que: 'The computer keyboard is divided between how section and features?',
+            opt_a: '6-7', 
+            opt_b: '2-3',
+            opt_c: '4-5',
+            opt_d: '6-10', 
+            ans: 'opt_c'
+        },
+        {
+            que: 'Which storage device below is connected to the USB port?',
+            opt_a: 'The CD and DVD.', 
+            opt_b: 'The diskette.',
+            opt_c: 'The flash disk',
+            opt_d: 'Local disk (C:)', 
+            ans: 'opt_d'
+        },
+        
     ]
+
 
 ]
 
