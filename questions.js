@@ -327,7 +327,629 @@ const data = [
             opt_d: 'Ground Bracelet',
             ans: 'opt_a'
         }             
+    ],
+    [
+        {
+            /* Extra */
+            id: 4,
+            set: 'How A Computer Works?',
+            dif: 'low',
+            /* Extra */
+            que: 'There are millions of tiny _________________ on a microprocessor.',
+            opt_a: 'Hairs', 
+            opt_b: 'Transistors',
+            opt_c: 'Holes', 
+            opt_d: 'Scanners',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'Electrons in a  transistor "jump" from the source to the ______________.',
+            opt_a: 'Gate', 
+            opt_b: 'Semiconductor',
+            opt_c: 'Drain', 
+            opt_d: 'Software',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'The second step of a microprocessor is _____________________.',
+            opt_a: 'Fetch', 
+            opt_b: 'Execute',
+            opt_c: 'Power', 
+            opt_d: 'Decode',
+            ans: 'opt_d'
+        },
+        {
+            que: 'The microprocessor is the main part of the computer?',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        },
+        {
+            que: 'Computers do math very _________________',
+            opt_a: 'Slow', 
+            opt_b: 'Fast',
+            ans: 'opt_b'
+        },
+        {
+            que: 'The first step of a microprocessor is ______________.',
+            opt_a: 'Decode', 
+            opt_b: 'Execute',
+            opt_c: 'Fetch', 
+            opt_d: 'Crash',
+            ans: 'opt_c'
+        },
+        {
+            que: '____________________ tells the microprocessor what to do.',
+            opt_a: 'Output', 
+            opt_b: 'Software',
+            opt_c: 'Little humans inside the CPU', 
+            opt_d: 'Gate',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Computers think like a human brain.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_b'
+        },
+        {
+            que: 'A transistor is made of _________________, a semiconductor.',
+            opt_a: 'Gate', 
+            opt_b: 'Silicon',
+            opt_c: 'Source', 
+            opt_d: 'Drain',
+            ans: 'opt_b'
+        },
+        {
+            que: 'Decode decides on the ______________',
+            opt_a: 'Math operation', 
+            opt_b: 'Spelling',
+            opt_c: 'Software', 
+            opt_d: 'Output device',
+            ans: 'opt_a'
+        },
+        {
+            que: 'There are _____ main types of memory.',
+            opt_a: '1', 
+            opt_b: '2',
+            opt_c: '4', 
+            opt_d: '6',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'A fab must be very _______________ to protect the delicate circuits of a microprocessor.',
+            opt_a: 'Bright', 
+            opt_b: 'Sterile',
+            opt_c: 'Secure', 
+            opt_d: 'Secret',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'The smallest part of a digital picture is called a ___________',
+            opt_a: 'Byte', 
+            opt_b: 'Gigabyte',
+            opt_c: 'Bit', 
+            opt_d: 'Pixel',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Microprocessors are made in a ______________.',
+            opt_a: 'Lab', 
+            opt_b: 'Factory',
+            opt_c: 'Fab', 
+            opt_d: 'House',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'A _________ is the smallest unit of digital information.',
+            opt_a: 'Pixel', 
+            opt_b: 'Bit',
+            opt_c: 'Byte', 
+            opt_d: 'Centimeter',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'What does execute do in the microprocessor?',
+            opt_a: 'Fetches data from software', 
+            opt_b: 'Decides on the math operation',
+            opt_c: 'Does the math', 
+            opt_d: 'Burps',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'Computers only function by doing _______________.',
+            opt_a: 'Reading', 
+            opt_b: 'Writing',
+            opt_c: 'Math', 
+            opt_d: 'Science',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'A microprocessor works millions of times per ________________.',
+            opt_a:  'Minute', 
+            opt_b: 'Hour',
+            opt_c: 'Second', 
+            opt_d: 'Day',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'RAM is a type of ____________________________.',
+            opt_a: 'Input', 
+            opt_b: 'Output',
+            opt_c: 'Microprocessor', 
+            opt_d: 'Memory',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'The third step of a microprocessor is ____________________.',
+            opt_a: 'Execute', 
+            opt_b: 'Fetch',
+            opt_c: 'Crash', 
+            opt_d: 'Decode',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'A binary code is made up of ___________________.',
+            opt_a: '1s and 2s', 
+            opt_b: '0s and 2s',
+            opt_c: '1s and 4s', 
+            opt_d: '0s and 1s',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Fetch receives the data from the memory/software.',
+            opt_a: 'True', 
+            opt_b: 'False',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'An example of an input device is:',
+            opt_a: 'Keyboard', 
+            opt_b: 'Monitor',
+            opt_c: 'Speakers', 
+            opt_d: 'Printer',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'There are _______ steps of a microprocessor.',
+            opt_a: 'Two', 
+            opt_b: 'Three',
+            opt_c: 'Four', 
+            opt_d: 'Five',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'An example of an output device is:',
+            opt_a: 'Keyboard', 
+            opt_b: 'Mouse',
+            opt_c: 'Printer', 
+            opt_d: 'Scanner',
+            ans: 'opt_c',
+        },   
+    ],
+    [
+        {
+            /* Extra */
+            id: 5,
+            set: 'Knowledge Trivia Test On Computer Terms And Vocabulary!',
+            dif: 'low',
+            /* Extra */
+            que: 'An executed program that loads the first piece of software and starts a computer.',
+            opt_a: 'Byte',
+            opt_b: 'Boot process',
+            opt_c: 'File virus',
+            opt_d: 'System unit',
+            ans: 'opt_b'
+        },
+        {
+            que: 'A collection of data, information, or code that is loaded onto your computer without your knowledge and runs against your wishes.  It can use all of your available memory and bring your system to a halt.',
+            opt_a: 'Boot process', 
+            opt_b: 'Resolution',
+            opt_c: 'Rom', 
+            opt_d: 'File virus',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'The fastest type of computer.',
+            opt_a: 'Supercomputer', 
+            opt_b: 'Byte',
+            opt_c: 'Silicon chip', 
+            opt_d: 'Pixels',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Abbreviation for the binary term, a unit of storage capable of holding a single character.',
+            opt_a: 'Output', 
+            opt_b: 'Icons',
+            opt_c: 'Byte', 
+            opt_d: 'Workstation',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'The main part of a personal computer, including the chassis, microprocessor, main memory, bus, and ports.  Does NOT include the keyboard or monitor or any peripheral devices.',
+            opt_a: 'Terabyte', 
+            opt_b: 'Server',
+            opt_c: 'Mainframe', 
+            opt_d: 'System unit',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Approximately 1 trillion bytes.',
+            opt_a: 'Terabyte', 
+            opt_b: 'Boot process',
+            opt_c: 'Silicon chip', 
+            opt_d: 'Pentium',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'A small picture that represents an object or program.',
+            opt_a: 'Information', 
+            opt_b: 'Icon',
+            opt_c: 'Mainframe', 
+            opt_d: 'Resolution',
+            ans: 'opt_b'
+        }, 
+        {
+            que: "A portable computer that is small enough to be held in one's hand.",
+            opt_a: 'Icon', 
+            opt_b: 'Program',
+            opt_c: 'Handheld', 
+            opt_d: 'Server',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'An organized list of instructions that, when executed, causes the computer to behave in a predetermined manner.',
+            opt_a: 'Pentium', 
+            opt_b: 'Gigabyte',
+            opt_c: 'Workstation', 
+            opt_d: 'Program',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'A type of computer used for engineering applications, desktop publishing, software development and other types of applications that require a moderate amount of computing power and relatively high-quality graphics capabilities.',
+            opt_a: 'Workstation', 
+            opt_b: 'File virus',
+            opt_c: 'Output', 
+            opt_d: 'Rom',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'A computer or device on a network that manages network resources.',
+            opt_a: 'Silicon chip', 
+            opt_b: 'Resolution',
+            opt_c: 'Server', 
+            opt_d: 'File virus',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'A collection of facts and data about a specific subject.',
+            opt_a: 'Icon', 
+            opt_b: 'Information',
+            opt_c: 'Rom', 
+            opt_d: 'Byte',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'A small piece of semi-conducting material (usually a nonmetallic chemical element in the carbon family) on which an integrated circuit is embedded.',
+            opt_a: 'Output', 
+            opt_b: 'Information',
+            opt_c: 'Pentium', 
+            opt_d: 'Silicon chip',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'A very large and expensive computer capable of supporting thousands of users at the same time.',
+            opt_a: 'Mainframe', 
+            opt_b: 'File virus',
+            opt_c: 'Terabyte', 
+            opt_d: 'Pixel',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'An acronym, or single letter abbreviation, for Read-Only Memory, computer memory on which data has been prerecorded.',
+            opt_a: 'ROM', 
+            opt_b: 'Resolution',
+            opt_c: 'Pentium', 
+            opt_d: 'Gigabyte',
+            ans: 'opt_a'
+        }, 
+        {
+            que: 'Anything that comes out of a computer.',
+            opt_a: 'Handheld', 
+            opt_b: 'Byte',
+            opt_c: 'Output', 
+            opt_d: 'ROM',
+            ans: 'opt_c'
+        }, 
+        {
+            que: 'A microprocessor.',
+            opt_a: 'Icon', 
+            opt_b: 'Main frame',
+            opt_c: 'Supercomputer', 
+            opt_d: 'Pentium',
+            ans: 'opt_d'
+        }, 
+        {
+            que: 'Refers to the sharpness and clarity of an image.',
+            opt_a: 'Pixels', 
+            opt_b: 'Resolution',
+            opt_c: 'File virus', 
+            opt_d: 'Work station',
+            ans: 'opt_b'
+        }, 
+        {
+            que: 'Short for Picture Element; a single point on a graphic image.',
+            opt_a: 'Pixel', 
+            opt_b: 'Byte',
+            opt_c: 'Semiconductor', 
+            opt_d: 'Server',
+            ans: 'opt_a'
+        }
+
+    ],
+    [
+        {
+                /* Extra */
+                id: 6,
+                set: 'How Well You Know Computers?',
+                dif: 'low',
+                /* Extra */
+                que: 'The Safest way to shut down a computer is:',
+                opt_a: 'Pull the Power Cord.',
+                opt_b: 'Press the Power button.',
+                opt_c: 'Press Start on a PC, Special on a Mac.',
+                opt_d: 'Press the power button on the Power Switch.',
+                opt_e: 'Run a couple of high powered magnets along the frame of the tower.',
+                ans: 'opt_c'
+            },
+            {
+                que: 'Which item is considered the "brains" of the computer?  Responsible for decision making, and processing information?',
+                opt_a: 'RAM', 
+                opt_b: 'ROM',
+                opt_c: 'CPU', 
+                opt_d: 'VGA',
+                opt_e: 'Memory',
+                ans: 'opt_c'
+            },
+            {
+                que: 'On a Mac to look for a file, use:',
+                opt_a: 'Search', 
+                opt_b: 'Finder',
+                opt_c: 'Lookup', 
+                opt_d: 'Fetch',
+                opt_e: 'Seeker',
+                ans: 'opt_b'
+            },
+            {
+                que: 'If something is not working correctly on your computer, the first thing you should check is...',
+                opt_a: 'The help file', 
+                opt_b: 'Who was the last person using this computer?',
+                opt_c: "Forget this, I'm calling Technical Support.", 
+                opt_d: 'Make sure everything is plugged in correctly and turned on.',
+                opt_e: 'The manual',
+                ans: 'opt_c'
+            },
+            {
+                que: 'To close a program running on a Mac, click the "x" in the top left corner, as opposed to the top right corner where you would close a PC Window.',
+                opt_a: 'True', 
+                opt_b: 'False',
+                ans: 'opt_a'
+            },
+            {
+                que: 'Which of the following are "input" devices?',
+                opt_a: 'Scanner', 
+                opt_b: 'SD Card',
+                opt_c: 'Touch Screen Monitor', 
+                opt_d: 'Battery',
+                
+                ans: 'opt_e'
+            },
+            {
+                que: 'Which is an example of Optical Media?',
+                opt_a: 'Webcam', 
+                opt_b: 'Retinal Scanner',
+                opt_c: 'Digital Camera', 
+                opt_d: 'CD-ROM',
+                opt_e: 'Monitor',
+                ans: 'opt_d'
+            },
+            {
+                que: "If you are running out of room on your computer and you don't have any money for new equipment you might be able to:",
+                opt_a: 'Purchase and install another hard drive.', 
+                opt_b: 'Add more memory.',
+                opt_c: 'Compress the hard drive.', 
+                opt_d: 'Format the hard drive.',
+                opt_e: 'Hook up a second monitor.',
+                ans: 'opt_c'
+            },
+            {
+                que: 'Your computer screen suddenly changes on you. Images and Windows are much bigger than you are used to and everything seems washed out like there are fewer colors to choose from. You suspect there is a problem with your video card, but what else might it be:',
+                opt_a: 'The monitor cable may have come loose.', 
+                opt_b: 'The government may be sweeping your computer looking for terrorist activity.',
+                opt_c: 'Your neighbors may be playing "Rock Band" too loudly again.', 
+                opt_d: 'The dead may be trying to communicate with you.',
+                opt_e: 'Your monitor may have run out of color pixels. It is time to bring the monitor in to your service tech to have the color refilled.',
+                ans: 'opt_a'
+            },
+            {
+                que: 'Who can give me all the training I need to really understand my computer and take full advantage of its features, at an affordable rate?',
+                opt_a: 'Learnkey', 
+                opt_b: 'Learn Key',
+                opt_c: 'Learnkey.com', 
+                opt_d: 'Www.learnkey.com',
+                opt_e: 'all of these',
+                ans: 'opt_e'
+            }
+        
+    ],
+    [
+        {
+            /* Extra */
+            id: 7,
+            set: 'GK Test On Computer Abbreviations And Acronym ',
+            dif: 'low',
+            /* Extra */
+            que: 'ROM',
+            opt_a: 'Random Only Memory',
+            opt_b: 'Read Only Memory',
+            opt_c: 'Right On Memory',
+            opt_d: 'Read One Memory',
+            ans: 'opt_b'
+        },
+        {
+            que: 'RAM',
+            opt_a: 'Random Access Memory', 
+            opt_b: 'Read And Memorise',
+            opt_c: 'Random Accent Memory', 
+            opt_d: 'Read Access Memory',
+            ans: 'opt_a'
+        },
+        {
+            que: 'CPU',
+            opt_a: 'Central Processing Unit', 
+            opt_b: 'Central Processor Unit',
+            opt_c: 'Certain Processing Unit', 
+            opt_d: 'Centre Processing Unit',
+            ans: 'opt_a'
+        },
+        {
+            que: 'LCD',
+            opt_a: 'Light Crystal Display', 
+            opt_b: 'Light Central Diode',
+            opt_c: 'Liquid Crystal Diode', 
+            opt_d: 'Liquid Crystal Display',
+            ans: 'opt_d'
+        },
+        {
+            que: 'TFT',
+            opt_a: 'Thin Flat Thing', 
+            opt_b: 'Thin Film Television',
+            opt_c: 'Thin Film Transisor', 
+            opt_d: 'Thin Faulty Transisor',
+            ans: 'opt_c'
+        },
+        {
+            que: 'PDA',
+            opt_a: "People's Data Assistant", 
+            opt_b: 'Personal Data Assistant',
+            opt_c: "People's Digital Assistan",
+            opt_d: 'Personal Digital Assistant',
+            ans: 'opt_d'
+        },
+        {
+            que: 'ALU',
+            opt_a: 'Arithmetic Logic Unit', 
+            opt_b: 'Accountant Learning Unit',
+            opt_c: 'Accountant Logic Unit', 
+            opt_d: 'Arithmetic Learning Unit',
+            ans: 'opt_a'
+        },
+        {
+            que: 'HCI',
+            opt_a: 'Hot Computer Input', 
+            opt_b: 'Human Computer Input',
+            opt_c: 'Human Computer Instructions', 
+            opt_d: 'Human Computer Interface',
+            ans: 'opt_d'
+        },
+        {
+            que: 'MB',
+            opt_a: 'Megabit', 
+            opt_b: 'Megahertz',
+            opt_c: 'Magabyte', 
+            opt_d: 'Megabyte',
+            ans: 'opt_d'
+        },
+        {
+            que: 'CD-RW',
+            opt_a: 'Compact-Disk Recordable', 
+            opt_b: 'Computer-Disk ReWritable',
+            opt_c: 'Compact-Drive ReWritable', 
+            opt_d: 'Compact-Disk ReWritable',
+            ans: 'opt_d'
+        },
+        {
+            que: 'WWW',
+            opt_a: 'Whole World Web', 
+            opt_b: 'World Weather Web',
+            opt_c: 'Whole Wide Web', 
+            opt_d: 'World Wide Web',
+            ans: 'opt_d'
+        },
+        {
+            que: 'OCR',
+            opt_a: 'Output Character Recognition', 
+            opt_b: 'Optical Character Recognition',
+            opt_c: 'Output Character Recorder', 
+            opt_d: 'Optical Character Recorder',
+            ans: 'opt_b '
+        },
+        {
+            que: 'LAN',
+            opt_a: 'Logical Area Network', 
+            opt_b: 'Local Area Network',
+            opt_c: 'Little Area Network', 
+            opt_d: 'Light Area Network',
+            ans: 'opt_b'
+        },
+        {
+            que: 'WAN',
+            opt_a: 'Wide Area Network', 
+            opt_b: 'Whole Area Network',
+            opt_c: 'World Area Network', 
+            opt_d: 'Worldwide Area Network',
+            ans: 'opt_a'
+        },
+        {
+            que: 'HTML',
+            opt_a: 'Hypertext Markup Language', 
+            opt_b: 'Hypertext Makup Language',
+            opt_c: 'Hypertext Makup Language', 
+            opt_d: 'Hypertext Makup Language',
+            ans: 'opt_a'
+        },
+        {
+            que: 'ISP',
+            opt_a: 'Internet Servant Provider', 
+            opt_b: 'Internet Server Provider',
+            opt_c: 'Internet Server Protection', 
+            opt_d: 'Internal Server Provider',
+            ans: 'opt_b'
+        },
+        {
+            que: 'DPA',
+            opt_a: 'Digital Protection Act', 
+            opt_b: 'Digital Prohibit Act',
+            opt_c: 'Data Protection Act', 
+            opt_d: 'Data Prohibit Act',
+            ans: 'opt_c'
+        },
+        {
+            que: 'RTF',
+            opt_a: 'Right Text Format', 
+            opt_b: 'Read Text Format',
+            opt_c: 'Rich Text Format', 
+            opt_d: 'Royal Text Format',
+            ans: 'opt_c'
+        },
+        {
+            que: 'GUI',
+            opt_a: 'Graphical User Input', 
+            opt_b: 'Graphical User Interface',
+            opt_c: 'General User Interface', 
+            opt_d: 'General User Interface',
+            ans: 'opt_b'
+        },
+        {
+            que: 'WIMP',
+            opt_a: 'Window Icon Menu Pointer', 
+            opt_b: 'Window Icon Mouse Pointer',
+            opt_c: 'Window Icon Menu Pull down menu', 
+            opt_d: 'Window Icon Menu Pen',
+            ans: 'opt_a'
+        },
     ]
+
 ]
 
 module.exports = data;
