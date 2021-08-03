@@ -7,9 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "computer",
     "quiz",
-    "web",
+    "website",
+    "full-stack",
+    "nodejs",
+    "expressjs"
     "rir360"
   ],
   "author": "Rejwan Islam Rizvy",
