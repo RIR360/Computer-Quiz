@@ -531,7 +531,7 @@ const data = [
         {
             /* Extra */
             id: 5,
-            set: 'Knowledge Trivia Test On Computer Terms And Vocabulary!',
+            set: 'Computer Terms And Vocabulary!',
             dif: 'low',
             /* Extra */
             que: 'An executed program that loads the first piece of software and starts a computer.',
@@ -786,7 +786,7 @@ const data = [
         {
             /* Extra */
             id: 7,
-            set: 'GK Test On Computer Abbreviations And Acronym ',
+            set: 'Computer Abbreviations And Acronym',
             dif: 'low',
             /* Extra */
             que: 'ROM',
