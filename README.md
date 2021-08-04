@@ -21,4 +21,4 @@ This is a quiz website where you can take quiz tests. You can check all the quiz
 ![image](https://user-images.githubusercontent.com/50569315/128033924-7cdad5e4-960f-4180-a1f8-5b9c1cdad126.png)
 
 ## Sepcial Thanks to the contributor
-* [Sangita Chakroborty](https://github.com/SangitaChakraborty)
+* [Sangita Chakroborty](https://github.com/SangitaChakraborty) (Data Processor)
